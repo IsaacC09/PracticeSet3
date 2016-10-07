@@ -34,7 +34,7 @@ public class Account_test {
 			Account acc_test = new Account(1122, 20000);
 			assertEquals(acc_test.deposit(3000),(20000+3000),0);
 			
-			
+	  		
 		}
 		// test withdraw method without overdrawing
 		@Test
@@ -52,7 +52,7 @@ public class Account_test {
 			Account acc_test = new Account(1122, 20000);
 			acc_test.withdraw(20001);
 			
-			
+		 	
 			
 		}
 
